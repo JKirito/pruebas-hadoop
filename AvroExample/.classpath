@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-1.7.7.jar" sourcepath="Libs/Avro/avro-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-compiler-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-compiler-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-compiler-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-ipc-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-ipc-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-ipc-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-mapred-1.7.7-hadoop1.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-mapred-1.7.7-hadoop2.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-mapred-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-mapred-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-mapred-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-maven-plugin-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-maven-plugin-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-maven-plugin-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-protobuf-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-protobuf-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-protobuf-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-service-archetype-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-service-archetype-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-thrift-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-thrift-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-thrift-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-tools-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-tools-1.7.7-nodeps.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-tools-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/avro-tools-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-avro-1.7.7-hadoop1.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-avro-1.7.7-hadoop2.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-avro-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-avro-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-avro-1.7.7.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-core-1.7.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-core-1.7.7-sources.jar"/>
+	<classpathentry kind="lib" path="Libs/Avro/trevni-core-1.7.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
