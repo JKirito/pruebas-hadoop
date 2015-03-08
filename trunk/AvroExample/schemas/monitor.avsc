@@ -1,0 +1,24 @@
+{
+"type": "record",
+"name": "MonitorDatos",
+"doc": "Campos de los monitores de rendimiento del csv",
+"fields": [
+{"name": "FNAME", "type": "string"},
+{"name": "LONGITUD", "type": "double"},
+{"name": "LATITUD", "type": "double"},
+{"name": "ID", "type": "long"},
+{"name": "ELEVACION", "type": "double"},
+{"name": "ANCHO", "type": "double"},
+{"name": "DISTANCIA", "type": "double"},
+{"name": "DURACION", "type": "double"},
+{"name": "HUMEDAD", "type": "double"},
+{"name": "FLUJO", "type": "double"},
+{"name": "UTC", "type": "long"},
+{"name": "PRODUCTO", "type": "string"},
+{"name": "FIELD", "type": "string"},
+{"name": "CARGA", "type": "string"},
+{"name": "MASA", "type": "double"},
+{"name": "REND", "type": "double"},
+{"name": "CLUSTER", "type": "int"}
+]
+}

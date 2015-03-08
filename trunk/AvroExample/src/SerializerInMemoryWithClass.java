@@ -9,6 +9,8 @@ import org.apache.avro.io.DatumWriter;
 import org.apache.avro.specific.SpecificDatumReader;
 import org.apache.avro.specific.SpecificDatumWriter;
 
+import entitiesAvro.StringPair;
+
 public class SerializerInMemoryWithClass {
 
 	private static List<StringPair> list = CreateObjects.CreateThreeExampleStringPair();
