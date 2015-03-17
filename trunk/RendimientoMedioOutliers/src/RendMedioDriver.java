@@ -30,7 +30,7 @@ public class RendMedioDriver {
 		// TODO: specify input and output DIRECTORIES
 		FileInputFormat.setInputPaths(job, new Path(
 				"/home/pruebahadoop/Documentos/DataSets/monitores/input/monitores2.csv"));
-		FileOutputFormat.setOutputPath(job, new Path("/home/pruebahadoop/Documentos/DataSets/monitores/output"));
+		FileOutputFormat.setOutputPath(job, new Path("/home/pruebahadoop/Documentos/DataSets/monitores/outputSinOutliers"));
 
 		if (!job.waitForCompletion(true))
 			return;
