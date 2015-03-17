@@ -18,6 +18,7 @@ public class OperadorRend {
 
 	public OperadorRend(Iterable<DoubleWritable> values) {
 		this.sortRendValues = new ArrayList<Double>();
+		this.total = 0.0;
 		for (DoubleWritable val : values) {
 			this.sortRendValues.add(val.get());
 			total += val.get();
@@ -77,7 +78,10 @@ public class OperadorRend {
 		return new Double(size * (percentil / 100)).intValue();
 	}
 
-	public Double sumaSinOutliers() {
+	public Double sumaSinOutliers(double percentilMenor, double percentilMayor) {
+		if (this.valuesWithoutOutliers != null) {
+			getListWithoutOutliers(percentilMenor, percentilMayor);
+		}
 		Double suma = 0.0;
 		for (Double val : this.valuesWithoutOutliers) {
 			suma += val;
