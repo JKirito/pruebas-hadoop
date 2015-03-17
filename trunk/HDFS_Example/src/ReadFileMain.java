@@ -7,13 +7,21 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IOUtils;
 
-public class ReadFile {
+public class ReadFileMain {
 
-	public ReadFile() {
+	public ReadFileMain() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) throws IOException {
+		ReadFileHDFS a = new ReadFileHDFS("/Página_12/Notas/Texto/Pagina12_2014-12-15_Respaldo para la AFIP.txt");
+		InputStream s = a.getStream();
+		StringSetCreator b = new StringSetCreator();
+		System.out.println(b.getStringSet(s, "iso-8859-1"));
+
+		if (true) {
+			return;
+		}
 		String uri = "/Página_12/Notas/Texto/Pagina12_2014-12-15_Respaldo para la AFIP.txt";
 		Configuration conf = new Configuration();
 
@@ -23,6 +31,7 @@ public class ReadFile {
 		try {
 
 			in = fs.open(new Path(uri));
+			// Salida por pantalla
 			IOUtils.copyBytes(in, System.out, 4096, false);
 		} finally {
 			IOUtils.closeStream(in);
